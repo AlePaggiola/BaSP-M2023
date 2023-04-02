@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-header {
+    background-color: #323232;
+    width: 1512px;
+    height: 188px;
+}
+
+.container-logo {
+    color: #E3EC39;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    left:50px;
+    top: 30px;
+
+}
+
+.container-logo img {
+    width: 102.86px;
+    height: 95px;
+}
+
+.container-login {
+    position:absolute;
+    left: 1200px;
+    top: 100px;
+    background-color:#FFFFFF;
+
+}
+
+.container-login img {
+    width: 35.49px;
+    height: 42.19px;
+}
+
+.container-signup {
+    position:absolute;
+    left: 1300px;
+    top:100px;
+    background-color: #FFFFFF;
+}
+
+.container-signup img {
+    width: 35.78px;
+    height: 42.19px;
+    
+}
+
+.container-aside {
+    background-color: #D5DD3C;
+    position:absolute;
+    width: 334.66px;
+    height: 5903px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container-sidebar li {
+    list-style: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container-sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container-sidebar2 {
+    position:relative;
+    top: 5000px;
+    left:30px;
+    font-size: 24px;
+}
+
+.container-sidebar2 img {
+    position: relative;
+    right: 120px;
+    top:30px;
+    width: 35.78px;
+    height: 42.19px;
+    padding-top: 10px;
+}
+
+.container-main {
+   margin-left: 336px;
+   position: absolute;
+}

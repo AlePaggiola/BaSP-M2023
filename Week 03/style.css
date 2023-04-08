@@ -98,7 +98,7 @@ body {
 
 .main2 {
   font-size: 100px;
-  background-image: url("../../assets/images/Group85.png");
+  background-image: url("../assets/images/Group85.png");
   background-repeat: no-repeat;
   padding: 50px;
   height: 700px;
@@ -150,7 +150,7 @@ body {
 }
 
 .reserv {
-  background-image: url("../../assets/images/reservations.png");
+  background-image: url("../assets/images/reservations.png");
   border-radius: 30px;
   background-size: cover;
   width: 400px;
@@ -173,7 +173,7 @@ body {
 }
 
 .sched {
-  background-image: url("../../assets/images/schedule.png");
+  background-image: url("../assets/images/schedule.png");
   border-radius: 30px;
   background-size: cover;
   width: 400px;
@@ -184,7 +184,7 @@ body {
 }
 
 .member {
-  background-image: url("../../assets/images/membership.png");
+  background-image: url("../assets/images/membership.png");
   border-radius: 30px;
   background-size: cover;
   width: 400px;
@@ -195,7 +195,7 @@ body {
 }
 
 .candc {
-  background-image: url("../../assets/images/contact.jpg");
+  background-image: url("../assets/images/contact.jpg");
   border-radius: 30px;
   background-size: cover;
   width: 400px;
@@ -259,7 +259,7 @@ button:hover {
 }
 
 .cross {
-  background-image: url("../../assets/images/cross.png");
+  background-image: url("../assets/images/cross.png");
   background-size: cover;
   width: 190px;
   height: 85px;
@@ -272,7 +272,7 @@ button:hover {
 }
 
 .box {
-  background-image: url("../../assets/images/boxeo.png");
+  background-image: url("../assets/images/boxeo.png");
   background-size: cover;
   width: 190px;
   height: 85px;
@@ -285,7 +285,7 @@ button:hover {
 }
 
 .funct {
-  background-image: url("../../assets/images/funct.png");
+  background-image: url("../assets/images/funct.png");
   background-size: cover;
   width: 190px;
   height: 85px;
@@ -298,7 +298,7 @@ button:hover {
 }
 
 .spinn {
-  background-image: url("../../assets/images/spinn.png");
+  background-image: url("../assets/images/spinn.png");
   background-size: cover;
   width: 190px;
   height: 85px;
@@ -311,7 +311,7 @@ button:hover {
 }
 
 .fitn {
-  background-image: url("../../assets/images/fitnn.png");
+  background-image: url("../assets/images/fitnn.png");
   background-size: cover;
   width: 190px;
   height: 85px;
@@ -324,7 +324,7 @@ button:hover {
 }
 
 .only {
-  background-image: url("../../assets/images/only.jpg");
+  background-image: url("../assets/images/only.jpg");
   background-size: cover;
   width: 480px;
   height: 576px;
@@ -348,7 +348,7 @@ button:hover {
 }
 
 .classic {
-  background-image: url("../../assets/images/classiccc.png");
+  background-image: url("../assets/images/classiccc.png");
   background-size: cover;
   width: 480px;
   height: 576px;
@@ -357,7 +357,7 @@ button:hover {
 }
 
 .black {
-  background-image: url("../../assets/images/black.png");
+  background-image: url("../assets/images/black.png");
   background-size: cover;
   width: 480px;
   height: 576px;

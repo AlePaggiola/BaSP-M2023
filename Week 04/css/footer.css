@@ -1,0 +1,81 @@
+.footer {
+  background-color: #c4c4c4;
+  width: 390px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  position: relative;
+  left: 70px;
+}
+
+.ig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding-left: 90px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  gap: 2rem;
+}
+
+.ig a {
+  font-size: 16px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.wpp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding-left: 90px;
+  padding-bottom: 20px;
+  gap: 2rem;
+}
+
+.wpp a {
+  font-size: 20px;
+  color: black;
+}
+
+.fb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 52px;
+  padding-left: 60px;
+  gap: 2rem;
+  padding-bottom: 40px;
+}
+
+.fb a {
+  font-size: 20px;
+  color: black;
+}
+
+.fb a img {
+  width: 52px;
+  height: 52px;
+}
+
+.rights {
+  font-size: 18px;
+  color: black;
+  padding-top: 70px;
+  text-align: center;
+}

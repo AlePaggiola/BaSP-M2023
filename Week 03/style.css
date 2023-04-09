@@ -1,5 +1,3 @@
-/*-------body------*/
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -48,8 +46,6 @@ body {
   height: 42.19px;
 }
 
-/*-------side bar------*/
-
 .container-aside {
   background-color: #d5dd3c;
   position: absolute;
@@ -87,8 +83,6 @@ body {
   padding-top: 10px;
 }
 
-/*-------main------*/
-
 .container-main {
   margin-left: 334px;
   background-color: #535353;
@@ -120,8 +114,6 @@ body {
   line-height: 70px;
   color: #ffffff;
 }
-
-/*------page 2------*/
 
 .home2 {
   display: inline-block;

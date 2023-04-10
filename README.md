@@ -16,6 +16,10 @@ I worked in the structure of the html part, git and readme.
 
 From the figma project, after developing the code in html, this week I worked on the design with css.
 
+## Week 04
+
+I made the html code and css for a mobile device so i can make it responsive with media-queries, for tablet and desktop
+
 ## Lenguages
 
 html, css

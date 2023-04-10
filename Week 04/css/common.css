@@ -18,18 +18,19 @@ body {
 }
 
 .featu {
-  margin-left: 50px;
   color: #ffffff;
   font-size: 55px;
   font-weight: bold;
   margin-top: 40px;
+  text-align: center;
 }
 
 .res {
   color: #e3ec39;
-  margin-left: 170px;
   font-size: 50px;
   font-weight: bold;
+  text-align: center;
+  margin-left: 120px;
 }
 
 .h4activ {

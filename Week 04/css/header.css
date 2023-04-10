@@ -10,11 +10,32 @@
 .container-logo img {
   width: 104px;
   height: 115px;
-  padding: 10px 20px 0 20px;
+  padding-left: 10px;
+}
+
+.container-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.MRSA {
+  color: #e3ec39;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 40px 0 20px;
 }
 
 .container-menu img {
   width: 50px;
   height: 40px;
   padding: 10px 20px 0 20px;
+  display: block;
+}
+
+@media screen and (max-width: 601px) {
+  .MRSA {
+    display: none;
+  }
 }

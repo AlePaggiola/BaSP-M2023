@@ -128,6 +128,7 @@
   margin: 10px 20px;
   float: right;
 }
+
 .send {
   background-color: #e3ec39;
   margin-top: 10px;
@@ -136,34 +137,6 @@
   width: 65px;
   height: 30px;
   font-weight: bold;
-}
-
-.header-buttom {
-  width: 158px;
-  height: 76px;
-  background: #ffffff;
-  border-radius: 5px;
-  border: 1px solid #000;
-  margin-right: 40px;
-  display: inline-block;
-}
-
-.header-buttom a {
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  font-size: 24px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 1.6;
-  padding-left: 10px;
-}
-
-.header-buttom img {
-  padding-top: 21px;
-  padding-left: 12px;
-  height: 35px;
-  width: 35px;
 }
 
 .box4 {
@@ -389,6 +362,35 @@
     flex-wrap: wrap;
   }
 
+  .form-contact-us {
+    border-radius: 30px;
+    background-color: #ffffff;
+    width: 600px;
+    height: 425px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-us {
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .send {
+    background-color: #e3ec39;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 65px;
+    height: 30px;
+    font-weight: bold;
+  }
+
   .box1 {
     width: 80%;
     margin: auto;
@@ -428,7 +430,7 @@
     background-color: #e0e0e0;
     font-size: 20px;
     border-radius: 10px;
-    width: 500px;
+    width: 600px;
     height: 120px;
     display: flex;
     align-items: center;

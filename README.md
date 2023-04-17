@@ -20,9 +20,13 @@ From the figma project, after developing the code in html, this week I worked on
 
 I made the html code and css for a mobile device so i can make it responsive with media-queries, for tablet and desktop
 
+## Week 05
+
+I started practicing on javascript, doing a lot of logic excercises.
+
 ## Lenguages
 
-html, css
+html, css, javascript
 
 ## Author
 

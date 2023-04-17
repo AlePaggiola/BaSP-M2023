@@ -22,7 +22,7 @@ I made the html code and css for a mobile device so i can make it responsive wit
 
 ## Week 05
 
-I started practicing on javascript, doing a lot of logic excercises.
+I started practicing on javascript, doing a lot of logic exercises.
 
 ## Lenguages
 

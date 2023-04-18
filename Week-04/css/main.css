@@ -40,20 +40,20 @@
   align-items: center;
 }
 
-.h4page2 {
+.title-boxes-features {
   color: #e3ec39;
   font-size: 35px;
   text-align: center;
 }
 
-.pres {
+.white-paragraph-letters {
   color: #ffffff;
   font-size: 20px;
   line-height: 40px;
   margin-top: 20px;
 }
 
-.reserv {
+.reservation {
   background-image: url("../../assets/images/reservations.png");
   border-radius: 30px;
   background-size: cover;
@@ -65,7 +65,7 @@
   text-align: center;
 }
 
-.member {
+.membership {
   background-image: url("../../assets/images/membership.png");
   border-radius: 30px;
   background-size: cover;
@@ -77,7 +77,7 @@
   text-align: center;
 }
 
-.sched {
+.schedule {
   background-image: url("../../assets/images/schedule.png");
   border-radius: 30px;
   background-size: cover;
@@ -89,7 +89,7 @@
   text-align: center;
 }
 
-.candc {
+.contact-and-suggestions {
   background-image: url("../../assets/images/contact.jpg");
   border-radius: 30px;
   background-size: cover;
@@ -144,14 +144,14 @@
   margin-bottom: 60px;
 }
 
-.activhome {
+.activities-home {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.h4activ {
+.h4-activities {
   color: #ffffff;
   font-size: 40px;
   line-height: 50px;
@@ -295,7 +295,7 @@
   width: 270px;
   height: 180px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {

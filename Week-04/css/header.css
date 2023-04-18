@@ -20,7 +20,7 @@
   align-items: center;
 }
 
-.MRSA {
+.h1-title {
   color: #e3ec39;
   font-size: 20px;
   font-weight: bold;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 601px) {
-  .MRSA {
+  .h1-title {
     display: none;
   }
 }

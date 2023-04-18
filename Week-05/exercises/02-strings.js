@@ -66,3 +66,5 @@ console.log(
     reallyLong.toUpperCase() +
     takeMeBackToFigma.toLowerCase()
 );
+
+//sacarlos de console log y hacerlos variable

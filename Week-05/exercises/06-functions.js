@@ -45,3 +45,50 @@ console.log(validateInteger("14"));
 que valide que los números sean enteros. En caso que haya decimales mostrar un alert con el error y retornar el número convertido a entero (redondeado).*/
 
 console.log("06.d");
+
+function sumaEnteros(number1, number2) {
+  if (typeof number1 !== "number" || typeof number2 !== "number") {
+    alert("Un parametro ingresado no es un numero");
+    return NaN;
+  } else if (!Number.isInteger(number1) || !Number.isInteger(number2)) {
+    alert("Uno o ambos numeros ingresados no son enteros, se redondera");
+    number1 = Math.round(number1);
+    number2 = Math.round(number2);
+  }
+  return suma(number1, number2);
+}
+
+console.log(sumaEnteros(14.5, 5));
+
+/* e. Convertir la validación del ejercicio 6d) en una función separada y llamarla dentro de una nueva función probando que todo siga funcionando igual que en el apartado anterior.*/
+
+console.log("06.e");
+
+function isInteger(num) {
+  return num % 1 === 0;
+}
+
+function roundToInteger(num) {
+  return Math.round(num);
+}
+
+function sumaEnteros(number1, number2) {
+  if (typeof number1 !== "number" || typeof number2 !== "number") {
+    alert("Un parametro ingresado no es un numero");
+    return NaN;
+  } else {
+    if (!isInteger(number1)) {
+      alert("El primer número no es entero, se redondeará");
+      number1 = roundToInteger(number1);
+    }
+    if (!isInteger(number2)) {
+      alert("El segundo número no es entero, se redondeará");
+      number2 = roundToInteger(number2);
+    }
+  }
+  return suma(number1, number2);
+}
+
+console.log(sumaEnteros(14, 5));
+
+console.log(sumaEnteros(14.5, 5));

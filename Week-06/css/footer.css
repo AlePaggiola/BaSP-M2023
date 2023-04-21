@@ -1,0 +1,182 @@
+.footer {
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.boxfooter {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.ig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  gap: 2rem;
+}
+
+.ig a {
+  font-size: 20px;
+  color: black;
+}
+
+.wpp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  gap: 2rem;
+}
+
+.wpp a {
+  font-size: 20px;
+  color: black;
+}
+
+.fb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  gap: 2rem;
+}
+
+.fb a {
+  font-size: 20px;
+  color: black;
+}
+
+.fb a img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  gap: 2rem;
+}
+
+.container-ubication {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  padding-top: 5rem;
+  gap: 3rem;
+}
+
+.ubi-tel img {
+  width: 30px;
+  height: 30px;
+}
+
+.rights {
+  font-size: 18px;
+  color: black;
+  padding-top: 70px;
+  text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+  .footer {
+    background-color: #c4c4c4;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .boxfooter {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .rights {
+    font-size: 18px;
+    color: black;
+    padding-top: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-ubication {
+    display: none;
+  }
+
+  .footer {
+    background-color: #323232;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .boxfooter {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .rights {
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;
+    text-align: center;
+  }
+
+  .ig {
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+  }
+
+  .wpp {
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+  }
+
+  .fb {
+    display: flex;
+    flex-direction: row;
+    width: 6rem;
+  }
+
+  .ig a {
+    font-size: 20px;
+    color: white;
+  }
+
+  .fb a {
+    font-size: 20px;
+    color: white;
+  }
+
+  .wpp a {
+    font-size: 20px;
+    color: white;
+  }
+}

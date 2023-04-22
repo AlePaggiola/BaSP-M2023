@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-image: url(../../assets/images/fondo.jpg);
 }
 
 .container-header {
@@ -21,13 +22,6 @@ body {
   width: 170px;
   height: 180px;
   padding-left: 10px;
-  display: flex;
-}
-
-.main-login {
-  background-image: url(../../assets/images/fondo.jpg);
-  width: 1512;
-  height: 1008px;
   display: flex;
 }
 

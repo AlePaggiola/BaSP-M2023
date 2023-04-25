@@ -24,6 +24,10 @@ I made the html code and css for a mobile device so i can make it responsive wit
 
 I started practicing on javascript, doing a lot of logic exercises.
 
+## Week 06
+
+I made the html code and css for the log in and sign up pages and focused on making the validations on javascripts
+
 ## Lenguages
 
 html, css, javascript

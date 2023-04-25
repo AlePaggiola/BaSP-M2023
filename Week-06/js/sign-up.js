@@ -1,4 +1,4 @@
-var emailInput = document.querySelector("#email");
+var emailInput = document.querySelector("#Email");
 var textValidationEmail = document.querySelector("#textValidationEmail");
 var textValidationPassword = document.querySelector("#textValidationPassword");
 
@@ -22,7 +22,7 @@ var validEmail = /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
 var email;
 var listEmail;
 function validationEmail() {
-  email = document.querySelector("#email").value;
+  email = document.querySelector("#Email").value;
   listEmail = email.split(".");
   if (
     validEmail.test(email) &&
@@ -36,7 +36,7 @@ function validationEmail() {
   }
 }
 
-var passwordInput = document.querySelector("#password");
+var passwordInput = document.querySelector("#Password");
 passwordInput.onfocus = function () {
   passwordInput.classList.add("green-border");
   passwordInput.classList.remove("red-border");
@@ -55,7 +55,7 @@ passwordInput.onblur = function () {
 
 var password;
 function validationPassword() {
-  password = document.querySelector("#password").value;
+  password = document.querySelector("#Password").value;
   if (password.length >= 8 && password != null && isNaN(password) == true) {
     return true;
   } else {
@@ -63,7 +63,7 @@ function validationPassword() {
   }
 }
 
-var acceptBtn = document.querySelector("#enter");
+var acceptBtn = document.querySelector("#Accept");
 acceptBtn.onclick = function (event) {
   var emailValido = validationEmail();
   var passwordValido = validationPassword();

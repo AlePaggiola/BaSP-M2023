@@ -18,21 +18,24 @@
         <h2 class="h2-login">Log in</h2>
         <div class="form-login">
           <div class="label-input">
-            <label for="text1">Email</label>
-            <input type="text2" placeholder="alejandra@gmail.com" />
+            <label for="name">Mail</label>
+            <input type="text" placeholder="alejandra@gmail.com" id="email" />
+            <p id="textValidationEmail">Invalid email</p>
           </div>
           <div class="label-input">
-            <label for="text1">Password</label>
-            <input type="text2" placeholder="**************" />
+            <label for="name">Password</label>
+            <input type="password" placeholder="**************" id="password" />
+            <p id="textValidationPassword">Invalid password</p>
           </div>
           <div class="forgot">
-            <button>Forgot your password?</button>
+            <button type="button">Forgot your password?</button>
           </div>
-          <div class="enter">
-            <button>Enter</button>
+          <div class="enter-button" id="enter">
+            <button type="button">Enter</button>
           </div>
         </div>
       </div>
     </main>
+    <script src="../js/login.js"></script>
   </body>
 </html>

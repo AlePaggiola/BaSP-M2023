@@ -544,4 +544,35 @@ btnAccept.onclick = function (event) {
   console.log(emailInput.value);
   console.log(passwordInput.value);
   console.log(repeatPasswordInput.value);
+
+  const formData = {
+    name: document.querySelector("#name").value,
+    email: document.querySelector("#email").value,
+  };
+
+  fetch("https://api-rest-server.vercel.app/signup", {
+    method: "POST",
+    body: JSON.stringify(formData),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((response) => response.json())
+    .then((data) => {
+      console.log("Success:", data);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+
+  localStorage.setItem("formData", JSON.stringify(formData));
+
+  window.addEventListener("load", () => {
+    const savedData = localStorage.getItem("formData");
+    if (savedData) {
+      const formData = JSON.parse(savedData);
+      document.querySelector("#name").value = formData.name;
+      document.querySelector("#email").value = formData.email;
+    }
+  });
 };

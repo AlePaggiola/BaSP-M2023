@@ -92,11 +92,11 @@ formLogin.addEventListener("submit", function (event) {
       if (response.ok) {
         return response.json();
       } else {
-        throw new Error("Network response was not ok.");
+        throw new Error("invalid login information.");
       }
     })
     .then(function (data) {
-      alert("Login successful! Response: " + JSON.stringify(data));
+      alert("Login successful!");
     })
     .catch(function (error) {
       alert("Error: " + error.message);
@@ -126,7 +126,7 @@ acceptBtn.onclick = function (event) {
         }
       })
       .then(function (data) {
-        alert("Login successful!" + JSON.stringify(data));
+        alert("Login successful!");
       })
       .catch(function (error) {
         alert("Error: " + error.message);

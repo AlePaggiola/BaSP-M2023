@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>loginGYM</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="container-header">
+      <div class="container-logo">
+        <img src="../../assets/images/logo.jpg" />
+      </div>
+      <h1 class="h1-title">MEGA ROCKET SA</h1>
+      <a href="../views/index.html">
+        <h2 class="homebox">Home</h2>
+      </a>
+    </header>
+    <main class="main-login">
+      <div class="box-login">
+        <h2 class="h2-login">Log in</h2>
+        <div class="form-login">
+          <div class="label-input">
+            <label for="name">Mail</label>
+            <input type="text" placeholder="alejandra@gmail.com" id="email" />
+            <p id="textValidationEmail">Invalid email</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Password</label>
+            <input type="password" placeholder="**************" id="password" />
+            <p id="textValidationPassword">Invalid password</p>
+          </div>
+          <div class="forgot">
+            <button type="button">Forgot your password?</button>
+          </div>
+          <div class="enter-button" id="enter">
+            <button type="button">Enter</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="../js/login.js"></script>
+  </body>
+</html>

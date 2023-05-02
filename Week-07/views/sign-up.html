@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SignUpGYM</title>
+    <link rel="stylesheet" href="../../Week-06/css/reset.css" />
+    <link rel="stylesheet" href="../../Week-06/css/sign-up.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header class="container-header">
+      <div class="container-logo">
+        <a href="index.html">
+          <img src="../../assets/images/logo.jpg" />
+        </a>
+      </div>
+      <h1 class="h1-title">MEGA ROCKET SA</h1>
+      <div class="box-login-button">
+        <a href="../views/login.html" class="login-button">
+          <p class="login-word">Log in</p>
+        </a>
+      </div>
+    </header>
+    <main class="signUp-main">
+      <div class="box">
+        <div class="form-signUp">
+          <div class="label-input">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Name" id="Name" />
+            <p id="textValidationName">Invalid name</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Lastname</label>
+            <input type="text" placeholder="Lastname" id="Lastname" />
+            <p id="textValidationLastname">Invalid lastname</p>
+          </div>
+          <div class="label-input">
+            <label for="name">DNI</label>
+            <input type="text" placeholder="DNI" id="DNI" />
+            <p id="textValidationDNI">Invalid DNI</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Date of birth</label>
+            <input type="date" placeholder="Date of birth" id="DateOfBirth" />
+            <p id="textValidationDate">Date invalid</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Phone</label>
+            <input type="text" placeholder="Phone" id="Phone" />
+            <p id="textValidationPhone">Invalid number phone</p>
+          </div>
+          <div class="label-input">
+            <label for="Adress">Adress</label>
+            <input type="text" placeholder="Adress" id="Adress" />
+            <p id="textValidationAdress">Invalid adress</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Location</label>
+            <input type="text" placeholder="Location" id="Location" />
+            <p id="textValidationLocation">Invalid location</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Postal Code</label>
+            <input type="text" placeholder="Postal Code" id="PostalCode" />
+            <p id="textValidationPostalCode">Invalid Postal Code</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Email</label>
+            <input type="text" placeholder="Email" id="Email" />
+            <p id="textValidationEmail">Invalid email</p>
+          </div>
+          <div class="label-input">
+            <label for="name">Password</label>
+            <input type="password" placeholder="Password" id="Password" />
+            <p id="textValidationPassword">Invalid password</p>
+          </div>
+          <div class="label-input">
+            <label for="text">Repeat password</label>
+            <input
+              type="password"
+              placeholder="Repeat password"
+              id="RepeatPassword"
+            />
+            <p id="textValidationRepeatPassword">Passwords must be the same</p>
+          </div>
+        </div>
+        <div class="accept-button">
+          <button id="accept">REGISTER</button>
+        </div>
+      </div>
+    </main>
+    <script src="../js/sign-up.js"></script>
+  </body>
+</html>

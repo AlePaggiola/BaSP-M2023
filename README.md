@@ -28,6 +28,10 @@ I started practicing on javascript, doing a lot of logic exercises.
 
 I made the html code and css for the log in and sign up pages and focused on making the validations on javascripts
 
+## Week 07
+
+This week i have been working on adding more functionality to the login and sign up pages, precisely with fetch
+
 ## Lenguages
 
 html, css, javascript

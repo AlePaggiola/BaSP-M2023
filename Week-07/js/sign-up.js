@@ -532,47 +532,83 @@ btnAccept.onclick = function (event) {
       alert("Invalid Repeat Password: " + repeatPasswordInput.hidden);
     }
   }
-  event.preventDefault();
-  console.log(nameInput.value);
-  console.log(lastNameInput.value);
-  console.log(dniInput.value);
-  console.log(dateBirthInput.value);
-  console.log(phoneInput.value);
-  console.log(locationInput.value);
-  console.log(adressInput.value);
-  console.log(postalInput.value);
-  console.log(emailInput.value);
-  console.log(passwordInput.value);
-  console.log(repeatPasswordInput.value);
 
-  const formData = {
-    name: document.querySelector("#name").value,
-    email: document.querySelector("#email").value,
-  };
+  var dob =
+    dateBirthInput.value.substring(5, 7) +
+    "/" +
+    dateBirthInput.value.substring(8, 10) +
+    "/" +
+    dateBirthInput.value.substring(0, 4);
 
-  fetch("https://api-rest-server.vercel.app/signup", {
-    method: "POST",
-    body: JSON.stringify(formData),
-    headers: {
-      "Content-Type": "application/json",
-    },
-  })
-    .then((response) => response.json())
-    .then((data) => {
-      console.log("Success:", data);
+  var params = new URLSearchParams();
+  params.append("name", nameInput.value);
+  params.append("lastName", lastNameInput.value);
+  params.append("dni", dniInput.value);
+  params.append("dob", dob);
+  params.append("phone", phoneInput.value);
+  params.append("address", adressInput.value);
+  params.append("city", locationInput.value);
+  params.append("zip", postalInput.value);
+  params.append("email", emailInput.value);
+  params.append("password", passwordInput.value);
+  var request =
+    "https://api-rest-server.vercel.app/signup" + "?" + params.toString();
+
+  fetch(request)
+    .then(function (response) {
+      return response.json();
     })
-    .catch((error) => {
-      console.error("Error:", error);
+    .then(function (data) {
+      if (data.success) {
+        alert("The request was successful.\n" + JSON.stringify(data.msg));
+        localStorage.setItem("Name", nameInput.value);
+        localStorage.setItem("Surname", lastNameInput.value);
+        localStorage.setItem("Id Number", dniInput.value);
+        localStorage.setItem("Birth Date", dateBirthInput.value);
+        localStorage.setItem("Phone", phoneInput.value);
+        localStorage.setItem("Address", adressInput.value);
+        localStorage.setItem("City", locationInput.value);
+        localStorage.setItem("Postal Code", postalInput.value);
+        localStorage.setItem("Email", emailInput.value);
+        localStorage.setItem("Password", passwordInput.value);
+      } else {
+        var errorMsg = "";
+        for (var i = 0; i < data.errors.length; i++) {
+          errorMsg += data.errors[i].msg + "\n";
+        }
+        alert("There were errors with your submission:\n" + errorMsg);
+      }
+    })
+    .catch(function (error) {
+      alert("There was an error:\n" + error.msg);
     });
 
-  localStorage.setItem("formData", JSON.stringify(formData));
-
-  window.addEventListener("load", () => {
-    const savedData = localStorage.getItem("formData");
-    if (savedData) {
-      const formData = JSON.parse(savedData);
-      document.querySelector("#name").value = formData.name;
-      document.querySelector("#email").value = formData.email;
-    }
-  });
+  event.preventDefault();
 };
+
+function getLocalStorage() {
+  nameInput.value = localStorage.getItem("Name");
+  lastNameInput.value = localStorage.getItem("Surname");
+  dniInput.value = localStorage.getItem("Id Number");
+  dateBirthInput.value = localStorage.getItem("Birth Date");
+  phoneInput.value = localStorage.getItem("Phone");
+  adressInput.value = localStorage.getItem("Address");
+  locationInput.value = localStorage.getItem("City");
+  postalInput.value = localStorage.getItem("Postal Code");
+  emailInput.value = localStorage.getItem("Email");
+  passwordInput.value = localStorage.getItem("Password");
+  repeatPasswordInput.value = localStorage.getItem("Password");
+}
+
+getLocalStorage();
+console.log(nameInput.value);
+console.log(lastNameInput.value);
+console.log(dniInput.value);
+console.log(dateBirthInput.value);
+console.log(phoneInput.value);
+console.log(locationInput.value);
+console.log(adressInput.value);
+console.log(postalInput.value);
+console.log(emailInput.value);
+console.log(passwordInput.value);
+console.log(repeatPasswordInput.value);

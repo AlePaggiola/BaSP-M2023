@@ -504,31 +504,31 @@ btnAccept.onclick = function (event) {
     if (lastNameValidate == false) {
       alert("Invalid lastname: " + lastNameInput.value);
     }
-    if (dniInput == false) {
+    if (dniValidate == false) {
       alert("Invalid DNI: " + dniInput.value);
     }
-    if (dateBirthInput == false) {
+    if (dateValidate == false) {
       alert("Invalid date of birth: " + dateBirthInput.value);
     }
-    if (phoneInput == false) {
+    if (phoneValidate == false) {
       alert("Invalid phone: " + phoneInput.value);
     }
-    if (locationInput == false) {
+    if (locationValidate == false) {
       alert("Invalid location: " + locationInput.value);
     }
-    if (adressInput == false) {
+    if (adressValidate == false) {
       alert("Invalid adress: " + adressInput.value);
     }
-    if (postalInput == false) {
+    if (postalValidate == false) {
       alert("Invalid Postal Code: " + postalInput.value);
     }
-    if (emailInput == false) {
+    if (emailValidate == false) {
       alert("Invalid Email: " + emailInput.value);
     }
-    if (passwordInput == false) {
+    if (passwordValidate == false) {
       alert("Invalid Password: " + passwordInput.hidden);
     }
-    if (repeatPasswordInput == false) {
+    if (repeatPasswordValidate == false) {
       alert("Invalid Repeat Password: " + repeatPasswordInput.hidden);
     }
   }
